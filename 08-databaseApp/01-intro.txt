@@ -1,0 +1,23 @@
+-- The Python standard for database interfaces is the Python DB-API. Most Python database interfaces adhere to this standard.
+-- You can choose the right database for your application. Python Database API supports a wide range of database servers
+-- You must download a separate DB API module for each database you need to access. For example, if you need to access an Oracle database as well as a MySQL database, you must download both the Oracle and the MySQL database modules.
+
+Performing Transactions
+Transactions are a mechanism that ensures data consistency. Transactions have the following four properties:
+    Atomicity: Either a transaction completes or nothing happens at all.
+    Consistency: A transaction must start in a consistent state and leave the system in a consistent state.
+    Isolation: Intermediate results of a transaction are not visible outside the current transaction.
+    Durability: Once a transaction was committed, the effects are persistent, even after a system failure.
+
+COMMIT Operation
+Commit is the operation, which gives a green signal to database to finalize the changes, and after this operation, no change can be reverted back.
+
+ROLLBACK Operation
+If you are not satisfied with one or more of the changes and you want to revert back those changes completely, then use rollback() method.
+
+Disconnecting Database
+To disconnect Database connection, use close() method.
+
+Handling Errors
+There are many sources of errors. A few examples are a syntax error in an executed SQL statement, a connection failure, or calling the fetch method for an already canceled or finished statement handle.
+Your Python scripts should handle these errors, but before using any of the above exceptions, make sure your MySQLdb has support for that exception. You can get more information about them by reading the DB API 2.0 specification.

@@ -1,0 +1,49 @@
+#installing DBMS
+-- To install MySQL, run the following command from a terminal prompt:
+    $ sudo apt-get install mysql-server
+
+-- installation will ask for root password. remember this. it is very important
+-- If you would like to change the MySQL root password, in a terminal enter:
+    $ sudo dpkg-reconfigure mysql-server-5.5
+
+-- Once the installation is complete, the MySQL server should be started automatically. You can run the following command from a terminal prompt to check whether the MySQL server is running: 
+    $ sudo netstat -tap | grep mysql
+-- If the server is not running correctly, you can type the following command to start it:
+    $ sudo service mysql restart
+-- first login :
+    $ mysql -u root -p
+
+-- installing MySQLdb
+    $ sudo apt-get install python2.7-mysqldb
+# configuring DBMS
+-- You can edit the /etc/mysql/my.cnf file to configure the basic settings -- log file, port number, etc. For example, to configure MySQL to listen for connections from network hosts, change the bind-address directive to the server's IP address:
+
+bind-address            = 192.168.0.5
+
+-- Let’s start by making a new user within the MySQL shell:
+    CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+
+-- granting privilages
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+
+The asterisks in this command refer to the database and table (respectively) that they can access—this specific command allows to the user to read, edit, execute and perform all tasks across all the databases and tables.
+
+FLUSH PRIVILEGES;
+
+
+# creating tables
+-- create database :
+    create database pythonWorkshop;
+    use pythonWorkShop;
+-- create table employee(firstName varchar(20), lastName varchar(20), age int);
+-- 
+# connection
+
+
+# insert operation
+insert into employee values('john', 'oliver', 28);
+# read operation
+
+# update operation
+
+# delete operation
