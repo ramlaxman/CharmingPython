@@ -2,30 +2,28 @@
 machine profile
 """
 
-import os
+import platform
 
 class machineProfile:
 
     def __init__(self):
-        self.unameVar = os.uname()
-
         self.osName = self.getOSName()
         self.nodeName = self.getNodeName()
-        self.kernelName = self.getKernelRelease()
+        self.kernelRelease = self.getKernelRelease()
         self.version = self.getVersionString()
         self.arch = self.getArch()
 
     def getOSName(self):
-        return self.unameVar[0]
+        return platform.system()
 
     def getNodeName(self):
-        return self.unameVar[1]
+        return platform.node()
 
     def getKernelRelease(self):
-        return self.unameVar[2]
+        return platform.release()
 
     def getVersionString(self):
-        return  self.unameVar[3]
+        return  platform.version()
 
     def getArch(self):
-        return self.unameVar[4]
+        return platform.machine()

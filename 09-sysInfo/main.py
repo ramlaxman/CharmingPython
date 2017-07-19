@@ -10,12 +10,14 @@ network interface info
 
 from osDetails import *
 from machineProfile import *
+from networkInfo import *
 
 def main():
-    print "starting machine profiler"
     myMachine = machineProfile()
+    print vars(myMachine)
 
-    print "printing obtained info"
-    print myMachine.arch
+    networkDetails = networkInfo()
+
+    print vars(networkDetails)
 
 main()
