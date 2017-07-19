@@ -1,0 +1,2 @@
+Errors and exceptions
+    -- try, catch the errors and exceptions to avoid code to break.

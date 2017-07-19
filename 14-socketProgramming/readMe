@@ -1,0 +1,34 @@
+Sockets are the endpoints of a bidirectional communications channel. Sockets may communicate within a process, between processes on the same machine, or between processes on different continents.
+
+    domain  The family of protocols that is used as the transport mechanism. 
+            These values are constants such as AF_INET, PF_INET, PF_UNIX, PF_X25, and so on.
+    
+    type    The type of communications between the two endpoints
+            -- SOCK_STREAM for connection-oriented protocols
+            -- SOCK_DGRAM for connectionless protocols.
+
+    protocol Typically zero, this may be used to identify a variant of a protocol within a domain and type.
+
+    hostname The identifier of a network interface:
+             A string, which can be a host name, a dotted-quad address, or an IPV6 address in colon (and possibly dot) notation
+             A string "<broadcast>", which specifies an INADDR_BROADCAST address.
+             A zero-length string, which specifies INADDR_ANY, or An Integer, interpreted as a binary address in host byte order.
+
+    port    Each server listens for clients calling on one or more ports.
+            A port may be a Fixnum port number, a string containing a port number, or the name of a service.
+
+Server Socket Methods
+    s.bind()    This method binds address (hostname, port number pair) to socket.
+    s.listen()  This method sets up and start TCP listener.
+    s.accept()  This passively accept TCP client connection, waiting until connection arrives (blocking).
+
+Client Socket Methods
+    s.connect() This method actively initiates TCP server connection.
+
+General Socket Methods
+    s.recv()    This method receives TCP message
+    s.send()    This method transmits TCP message
+    s.recvfrom()    This method receives UDP message
+    s.sendto()  This method transmits UDP message
+    s.close()   This method closes socket
+    socket.gethostname()    Returns the hostname.

@@ -1,0 +1,2 @@
+Strings
+    -- Simple yet most powerful and widely used data structure.
