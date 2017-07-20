@@ -1,0 +1,38 @@
+# What is python ?
+    -- python is a high-level, interpreted, interactive and object-oriented scripting language.
+    -- processed at runtime by the interpreter
+    -- you can interact with the interpreter directly via python prompt
+    -- supports Object-Oriented style or technique of programming
+
+# Who created it ?
+    -- Guido van Rossum in the late eighties and early nineties
+
+# Where can it be used ?
+    -- day-to-day scripting tasks
+    -- text processing
+    -- application development
+    -- web development
+    -- game development
+    -- devOps scripting
+    -- scientific computing
+    -- mathematics
+    -- data analytics
+    -- media processing
+    -- video games
+    -- automation
+    
+# When should I use python
+    -- proof of concepts implementations where "this works!" is important
+    -- quickly develop and deliver
+    -- performance is not a prime concern (for now)
+    -- leisure projects for fun
+    -- experimenting stuff which is additional activity
+    -- there are too many unknowns, community comes to rescue
+
+# Why
+    -- free and open source
+    -- Python reads like English
+    -- Python is really flexible. This means there are no hard rules on how to build features
+    -- The larger a community, the more likely you'd get help
+    -- The more useful projects there are, the more likely someone has already built a function you need
+    -- On Angel List, Python is the 2nd most demanded skill and also the skill with the highest average salary offered.
