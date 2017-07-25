@@ -22,10 +22,8 @@ print "\tSubstraction : ", (var1 - var2)
 print "\tMultiplication : ", (var1 * var2)
 print "\tDivision : ", (var1 / var2)
 
+VAR1 = 33
+
+print "case sensitive variable names : %d -- %d " % (var1, VAR1)
 
 
-"""
-Exercise :
-    -- What does the assignment operator return ? find out?
-    -- what is the result of
-"""
