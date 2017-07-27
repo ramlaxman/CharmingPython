@@ -33,3 +33,9 @@ complexPrint = ('Put several strings within parentheses '
 
 print complexPrint
 
+
+# using format string as a variable :
+formatter = "%d.%d.%d.%d"
+print "ip address is : " + formatter % (192, 168, 0, 100)
+
+
