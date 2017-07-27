@@ -1,2 +1,4 @@
 Loops and Control Structures
     -- for, while, if-else etc. the crux logic creators of the program
+
+-- range function comes in handy to understand loops

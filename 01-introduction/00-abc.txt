@@ -21,7 +21,7 @@
     -- video games
     -- automation
     
-# When should I use python
+# When should I use python ?
     -- proof of concepts implementations where "this works!" is important
     -- quickly develop and deliver
     -- performance is not a prime concern (for now)
@@ -29,7 +29,7 @@
     -- experimenting stuff which is additional activity
     -- there are too many unknowns, community comes to rescue
 
-# Why
+# Why should I use python ?
     -- free and open source
     -- Python reads like English
     -- Python is really flexible. This means there are no hard rules on how to build features
