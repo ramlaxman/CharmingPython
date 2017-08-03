@@ -1,0 +1,9 @@
+1. create a list of dictionaries of students with basic fields
+    -- add a list of 5 marks values as a field to each student
+    -- these would be marks of each student in each of five subjects
+    -- calculate the average marks obtained by the class in each subject
+
+2. write set of functions to manage dictionary of students of a class
+    -- key should be a tuple of (class, division and roll_number)
+    -- value should be a list of attributes of a student (name, gender, address, DOB, email)
+    -- write a functions to create, access, delete, add and update the students data

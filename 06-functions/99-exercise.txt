@@ -1,0 +1,7 @@
+1. write a program to emulate calculator functionality
+    -- define functions for various arithmatic and logical operation
+    -- prompt user for operation as long as user does not want to exit
+    -- accept proper imput from user for a particular operation
+    e.g. addition takes two numbers, square takes only one
+    -- additionally, format the output to look good
+

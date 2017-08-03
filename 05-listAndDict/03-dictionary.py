@@ -1,3 +1,10 @@
+"""
+Rules
+    -- More than one entry per key not allowed.
+    -- keys should be such that they cannot be changed
+"""
+
+
 # creating a dictionary
 dictVar = {"name":"rahul", "age":5}
 print type(dictVar)
@@ -28,3 +35,12 @@ print student
 # adding a field
 student['subjects'] = "python"
 print student
+
+# deleting a field
+del student['DOB']
+print student
+
+# deleting entire dictionary
+student.clear()
+print student
+
