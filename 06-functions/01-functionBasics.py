@@ -11,6 +11,14 @@ function
     -- can have multiple returns
 """
 
+# a function returning a value
+def countStars(starString):
+    stCount = 0
+    for ch in starString:
+        if ch == '*':
+            stCount +=1
+    return stCount
+
 # parameterized function
 def logNstars(count):
     print '*'*count
@@ -27,5 +35,9 @@ def main():
     count = raw_input("enter count of stars : ")
     logNstars(int(count))
 
+    starString = "* there * are * 5 * stars*****"
+    print "count of stars : %d " % countStars(starString)
+
+# this is actually the first line to be executed
 # function call
 main()
