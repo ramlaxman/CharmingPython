@@ -1,0 +1,16 @@
+Exercises on strings
+
+1. Write a Python program to calculate the length of a string without using library function
+
+2. Write a Python program to count the number of characters (character frequency) in a string.
+    e.g. for a string "this" : t=1, h=1, i=1, s=1
+
+3. Write a Python program to count the occurrences of each word in a given sentence
+
+4. Write a Python function to reverses a string without using a library function
+
+5. Write a program to 
+    1. encrypt a string with Ceaser Cypher with a key
+    2. decrypt the string with same key
+
+6. Write a Python program to reverse words in a string (DO NOT REVERSE THE STRING).
