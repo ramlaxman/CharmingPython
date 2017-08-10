@@ -12,3 +12,6 @@ lines = f.readlines()
 
 for eachLine in lines:
     print "line : ", eachLine, "length : ", len(eachLine)
+
+f.close()
+

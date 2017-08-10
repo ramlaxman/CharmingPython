@@ -1,3 +1,9 @@
+"""
+What is the difference between a Dog and a Labrador?
+You have three labradors you name them Tommy, smarty and jimmy
+Whats the difference between Tommy and Labrador?
+"""
+
 
 # class statements must be executed before use
 class myFriend:
@@ -14,6 +20,8 @@ f1.sayHi()
 
 # some surgery on the class
 print "printing documentation : ", myFriend.__doc__
+
+print "printing name : ", myFriend.__name__
 
 print "everything defined by the class as a dictionary"
 for k,v in myFriend.__dict__.iteritems():
