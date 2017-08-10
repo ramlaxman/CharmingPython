@@ -1,2 +1,5 @@
 GUI Applications
     -- A primer on creating your own GUI application
+
+
+detailed tkinter tutorial : http://www.python-course.eu/python_tkinter.php
