@@ -1,0 +1,9 @@
+part 1
+    write a class named "division",
+        -- assign basic attributes to it
+        -- has a list of students objects
+        -- add / delete students (create a student object as mentioned in part 2)
+part 2
+    write a class named "student"
+        -- assign basic attributes
+        -- write functions to set/update the attribue values

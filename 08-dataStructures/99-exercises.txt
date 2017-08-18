@@ -1,0 +1,5 @@
+1. write a program to maintain a list of daily tasks and perform operations on it
+    -- add a new task (avoid repeatations)
+    -- delete a given task (check if the task exists. if not print error message, if list empty, print error)
+    -- delete all tasks (check if list empty)
+    -- show all tasks (check if list empty)
