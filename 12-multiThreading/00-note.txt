@@ -1,2 +1,14 @@
 Multi-Threading
     -- understand threading concepts to write mutli-threaded applications.
+
+Thread : The smallest unit that can be scheduled in an operating system.
+    -- normally created by a fork of a computer script or program in two or more parallel
+    -- usually contained in processes.
+    -- share the code or instructions and the values of variables of a process.
+Types :
+    Kernel threads
+    User-space Threads or user threads
+
+Every process has at least one thread, i.e. the process itself.
+A process can start multiple threads.
+The operating system executes these threads like parallel "processes".

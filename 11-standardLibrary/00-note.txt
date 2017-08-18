@@ -1,2 +1,4 @@
 Standard Library
     -- getting to know pre-written routines to get the work done faster.
+
+https://docs.python.org/2/library/index.html

@@ -1,0 +1,8 @@
+Module :
+    set of functions which perform a particular task
+
+Types :
+    -- standard :   provided by default
+        e.g. os, sys, urllib ..etc
+    -- custom   :   user created
+        e.g.

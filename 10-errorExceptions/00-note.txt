@@ -6,3 +6,6 @@ Types of Errors:
     -- exceptions : Errors detected during execution are called exceptions
         e.g. ZeroDivisionError, NameError and TypeError.
     -- It is possible to write programs that handle selected exceptions.
+
+
+# go to python prompt and try 10/0
