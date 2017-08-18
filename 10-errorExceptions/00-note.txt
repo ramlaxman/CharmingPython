@@ -1,2 +1,8 @@
 Errors and exceptions
     -- try, catch the errors and exceptions to avoid code to break.
+
+Types of Errors:
+    -- syntax : parsing errors
+    -- exceptions : Errors detected during execution are called exceptions
+        e.g. ZeroDivisionError, NameError and TypeError.
+    -- It is possible to write programs that handle selected exceptions.
