@@ -6,9 +6,8 @@ Variables are Storage containers. they provide space to store data
 
 var1 = 20
 
-print "printing variable : ", var1
-
-print "the variable has %d value " % var1
+print ("printing variable : ", var1)
+print ("the variable has %d value " % var1)
 
 var1 = 10
 
