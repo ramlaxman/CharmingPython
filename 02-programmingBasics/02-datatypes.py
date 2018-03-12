@@ -9,6 +9,9 @@ print (type(floatVar))
 stringVar = "variable of type string"
 print (type(stringVar))
 
+### Data Structures in Python ###
+
+# list
 listVar = [1, "3", 4.5]
 print (type(listVar))
 
