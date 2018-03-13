@@ -6,7 +6,7 @@
 ```rm```      : remove a file
 ```find```    : find a file in directory
 ```cp```      : copy a file
-```~```      : short  name for user's home directory
+```~```       : short  name for user's home directory
 
 ## Directory Operations
 ```mkdir```   : create a directory
