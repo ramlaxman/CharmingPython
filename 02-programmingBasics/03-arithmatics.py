@@ -5,7 +5,6 @@ Example program to understand arithmatics in python
 operand1 = 10
 operand2 = 20
 
-<<<<<<< HEAD
 print("addition : %d " % (operand1 + operand2))
 print("substraction : %d" % (operand1 - operand2))
 print("multiplication : %d " % (operand1 * operand2))
@@ -35,4 +34,3 @@ x = 132.5567/345.22
 
 print ("x : ", x)
 print ("Rounding off values : ", round(x, 2))
->>>>>>> f843d94c4c04d61508c4a52a5c6cbc9865c4079a
