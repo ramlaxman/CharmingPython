@@ -1,4 +1,4 @@
-print "Enter a number : "
-num = raw_input()
+print("Enter a number : ")
+num = input()
 
-print "entered number : ", num
+print("entered number : ", num)
