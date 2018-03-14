@@ -1,0 +1,7 @@
+# Understading the interpreter
+   * Printing
+   * Comments
+   * Basic Arithmatic
+   * Variables
+   * Function
+   * dir()

@@ -3,42 +3,40 @@ dt2 = {'name': 'micheal'}
 dt3 = {'name': 'narendra'}
 
 # compare two dictionaries
-print dt1 == dt2
-print dt1 == dt3
+print(dt1 == dt2)
+print(dt1 == dt3)
 
-# lenght of dictionary
+# length of dictionary
 student = {
-    'name':'narendra',
+    'Name':'narendra',
     'DOB':'02061988',
-    'address':'pune',
-    'class':'B'
+    'Address':'pune',
+    'Class':'B'
 }
 
-print "length : ", len(student)
+print("Length: ", len(student))
 
 # does the dict have this key
-print "has_key DOB ? ", student.has_key('DOB')
-print "has_key subject ? ", student.has_key('subject')
+print("has_key DOB ? ", 'DOB' in student)
+print("has_key subject ? ", 'subject' in student)
 
 # add one dict into another
-newD = {'subject':'programming'}
-student.update(newD)
+sub = {'subject':'Python'}
+student.update(sub)
 
-print "updated dictionary : ", student
-print "has_key subject ? ", student.has_key('subject')
-
+print("updated dictionary:", student)
+print("Is there key named as subject?", 'subject' in student)
 
 # creating a dict with tuples as key
 
-classes = ['mca', 'mcs']
-divisions = ['a', 'b']
+classes = ['mca','mcs']
+divisions = ['a','b']
 roll_no = [1, 2, 3, 4, 5]
 
-stud1 = classes[0], divisions[0], roll_no[0]
-stud2 = classes[0], divisions[0], roll_no[1]
-
-stud3 = classes[0], divisions[1], roll_no[0]
-stud4 = classes[0], divisions[1], roll_no[1]
+stud1 = classes[0],divisions[0],roll_no[0]
+stud2 = classes[0],divisions[0],roll_no[1]
+stud3 = classes[0],divisions[1],roll_no[0]
+stud4 = classes[0],divisions[1],roll_no[1]
 
 studsOfMCA = {
     stud1 : "Jai",
@@ -47,5 +45,5 @@ studsOfMCA = {
     stud4 : "Gabbar"
 }
 
-for k,v in studsOfMCA.iteritems():
-    print k , " : ", v
+for k,v in studsOfMCA.items():
+    print(k,":",v)

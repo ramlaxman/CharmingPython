@@ -4,10 +4,9 @@ Rules
     -- keys should be such that they cannot be changed
 """
 
-
 # creating a dictionary
 dictVar = {"name":"rahul", "age":5}
-print type(dictVar)
+print(type(dictVar))
 
 # creating a student dictionary
 student = {
@@ -18,29 +17,27 @@ student = {
 }
 
 # accessing the value from the key
-print "name : ", student['name']
+print("name : ", student['name'])
 
-# accessing entire dictionaly
-print student
+# accessing entire dictionary
+print(student)
 
 # looping over elements
-for key, value in student.iteritems():
-    print key, value
-
+for key, value in student.items():
+    print(key, value)
 
 # updating values
 student['address'] = 'Mumbai'
-print student
+print(student)
 
 # adding a field
 student['subjects'] = "python"
-print student
+print(student)
 
 # deleting a field
 del student['DOB']
-print student
+print(student)
 
 # deleting entire dictionary
 student.clear()
-print student
-
+print(student)

@@ -1,6 +1,0 @@
--- python is meant for better readable code. hence indentation is very important
--- lack of indentation causes syntax errors
--- 2 modes of programming
-    -- interactive
-    -- script mode
-
