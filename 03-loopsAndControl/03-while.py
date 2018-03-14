@@ -27,6 +27,8 @@ while count < 5:
 else:
    print(count, " is not less than 5")
 
+print ("End of count operation")
+
 
 # Single statement if not declared properly make you say Good Bye to your program
 # Remove multiline comments and see for yourself
