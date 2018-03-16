@@ -19,7 +19,6 @@ x = 132.5567/345.22
 
 print("x : ", x)
 print("rounding off values : ", round(x, 2))
-=======
 print ("Addition : %d " % (operand1 + operand2))
 print ("Substraction : %d" % (operand1 - operand2))
 print ("Multiplication : %d " % (operand1 * operand2))

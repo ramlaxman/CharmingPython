@@ -1,10 +1,10 @@
 class Parent:        # define parent class
    def myMethod(self):
-      print 'Calling parent method'
+      print ('Calling parent method')
 
 class Child(Parent): # define child class
    def myMethod(self):
-      print 'Calling child method'
+      print ('Calling child method')
 
 # another class which does not write its own method
 class Chlid2(Parent):

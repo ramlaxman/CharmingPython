@@ -13,4 +13,4 @@ for ch in sampleString:
     else:
         freqDict[ch]=1
 
-print freqDict
+print (freqDict)

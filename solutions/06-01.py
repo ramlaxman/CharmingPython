@@ -8,54 +8,54 @@
 """
 
 def addition():
-    n1 = int(raw_input('operand1 : '))
-    n2 = int(raw_input('operand2 : '))
+    n1 = int(input('operand1 : '))
+    n2 = int(input('operand2 : '))
     print (n1+n2)
 
 def substraction():
-    n1 = int(raw_input('operand1 : '))
-    n2 = int(raw_input('operand2 : '))
+    n1 = int(input('operand1 : '))
+    n2 = int(input('operand2 : '))
     print (n1-n2)
 
 def multiplication():
-    n1 = int(raw_input('operand1 : '))
-    n2 = int(raw_input('operand2 : '))
+    n1 = int(input('operand1 : '))
+    n2 = int(input('operand2 : '))
     print (n1*n2)
 
 def division():
-    n1 = int(raw_input('operand1 : '))
-    n2 = int(raw_input('operand2 : '))
+    n1 = int(input('operand1 : '))
+    n2 = int(input('operand2 : '))
     print (float(n1)/float(n2))
 
 def main():
     ch = 0
     while(ch != 99):
-        print """
+        print ("""
         select operation :
             1. addition
             2. substraction
             3. multiplication
             4. division
             99. quit
-        """
-        ch = int(raw_input())
+        """)
+        ch = int(input())
 
         if ch == 1:
-            print "addition"
+            print ("addition")
             addition()
         elif ch==2:
-            print "substraction"
+            print ("substraction")
             substraction()
         elif ch==3:
-            print "multiplication"
+            print ("multiplication")
             multiplication()
         elif ch==4:
-            print "division"
+            print ("division")
             division()
         elif ch==99:
-            print "quitting the calculator"
+            print ("quitting the calculator")
             quit()
         else:
-            print "wrong choice of option"
+            print ("wrong choice of option")
 
 main()

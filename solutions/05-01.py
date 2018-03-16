@@ -32,8 +32,8 @@ for i in range(0,5):
     for stud in listOfStuds:
         SubTotal[i] = SubTotal[i] + stud["marks"][i]
 
-print SubTotal
+print (SubTotal)
 
 averageList = [float(x)/len(listOfStuds) for x in SubTotal]
 
-print averageList
+print (averageList)
