@@ -6,7 +6,7 @@ num2 = input()
 # simple if else
 
 if (int( num1 ) % 2)==0:
-    print("num1 is even")
+	print("num1 is even")
 else:
     print("num1 is odd")
 
