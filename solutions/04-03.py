@@ -23,9 +23,5 @@ for w in listOfwords:
         freqDict[w]=1
 
 for k,v in freqDict.items():
-<<<<<<< HEAD
     print(k,v)
-=======
     print (k,v)
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
-

@@ -4,16 +4,12 @@ import socket
 
 socketObject = socket.socket()
 
-host = "172.23.23.200"
-
+host = int(input(""))
 port = 12345
 
 socketObject.connect((host,port))
 
-<<<<<<< HEAD
 print(socketObject.recv(1024))
-=======
-print (socketObject.recv(1024))
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+print(socketObject.recv(1024))
 
 socketObject.close()

@@ -10,47 +10,39 @@
 def addition():
     n1 = int(input('operand1 : '))
     n2 = int(input('operand2 : '))
-<<<<<<< HEAD
     print((n1+n2))
-=======
     print (n1+n2)
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+
 
 def substraction():
     n1 = int(input('operand1 : '))
     n2 = int(input('operand2 : '))
-<<<<<<< HEAD
     print((n1-n2))
-=======
     print (n1-n2)
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+
 
 def multiplication():
     n1 = int(input('operand1 : '))
     n2 = int(input('operand2 : '))
-<<<<<<< HEAD
     print((n1*n2))
-=======
     print (n1*n2)
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+
 
 def division():
     n1 = int(input('operand1 : '))
     n2 = int(input('operand2 : '))
-<<<<<<< HEAD
     print((float(n1)/float(n2)))
-=======
     print (float(n1)/float(n2))
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+
 
 def main():
     ch = 0
     while(ch != 99):
-<<<<<<< HEAD
+
         print("""
-=======
+
         print ("""
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+
         select operation :
             1. addition
             2. substraction
@@ -61,7 +53,7 @@ def main():
         ch = int(input())
 
         if ch == 1:
-<<<<<<< HEAD
+
             print("addition")
             addition()
         elif ch==2:
@@ -78,7 +70,7 @@ def main():
             quit()
         else:
             print("wrong choice of option")
-=======
+
             print ("addition")
             addition()
         elif ch==2:
@@ -95,6 +87,6 @@ def main():
             quit()
         else:
             print ("wrong choice of option")
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+        """)
 
 main()

@@ -21,7 +21,7 @@ class division:
         self.studentList.append(student)
 
 div1 = division('bca')
-<<<<<<< HEAD
+
 print(vars(div1))
 stud1 = student('narendra', 10, ['network, python'])
 print(vars(stud1))
@@ -33,7 +33,7 @@ print(vars(div1))
 
 for student in div1.studentList:
     print(vars(student))
-=======
+
 print (vars(div1))
 stud1 = student('narendra', 10, ['network, python'])
 print (vars(stud1))
@@ -45,4 +45,4 @@ print (vars(div1))
 
 for student in div1.studentList:
     print (vars(student))
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+

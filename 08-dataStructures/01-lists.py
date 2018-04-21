@@ -1,5 +1,4 @@
 a = [66.25, 333, 333, 1, 1234.5]
-<<<<<<< HEAD
 print("list a : ", a)
 print("printing count of each element ..(333, 66.25, \'x\') ")
 print((a.count(333), a.count(66.25), a.count('x')))
@@ -35,7 +34,6 @@ print("list a : ", a)
 a.pop()
 print("pop an element")
 print("list a : ", a)
-=======
 print ("list a : ", a)
 print ("printing count of each element ..(333, 66.25, \'x\') ")
 print(a.count(333), a.count(66.25), a.count('x'))
@@ -71,5 +69,5 @@ print ("list a : ", a)
 a.pop()
 print ("pop an element")
 print ("list a : ", a)
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+
 

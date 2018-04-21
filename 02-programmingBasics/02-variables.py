@@ -6,8 +6,6 @@ Variables are Storage containers. they provide space to store data
 
 var1 = 20
 
-<<<<<<< HEAD
-=======
 print("printing variable : ", var1)
 print("the variable has %d value " % var1)
 
@@ -26,7 +24,6 @@ print("\tDivision : ", (var1 / var2))
 VAR1 = 33
 
 print("case sensitive variable names : %d -- %d " % (var1, VAR1))
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
 print ("printing variable : ", var1)
 print ("the variable has %d value " % var1)
 

@@ -32,16 +32,12 @@ for i in range(0,5):
     for stud in listOfStuds:
         SubTotal[i] = SubTotal[i] + stud["marks"][i]
 
-<<<<<<< HEAD
 print(SubTotal)
 
 averageList = [float(x)/len(listOfStuds) for x in SubTotal]
 
 print(averageList)
-=======
 print (SubTotal)
 
 averageList = [float(x)/len(listOfStuds) for x in SubTotal]
-
 print (averageList)
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd

@@ -21,7 +21,6 @@ def countStars(starString):
 
 # parameterized function
 def logNstars(count):
-<<<<<<< HEAD
     print('*'*count)
 
 # another function
@@ -31,7 +30,6 @@ def logStars():
 # function definition
 def main():
     print("this is main function")
-=======
     print ('*'*count)
 
 # another function
@@ -41,18 +39,15 @@ def logStars():
 # function definition
 def main():
     print ("this is main function")
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
     logStars()
 
     count = input("enter count of stars : ")
     logNstars(int(count))
 
     starString = "* there * are * 5 * stars*****"
-<<<<<<< HEAD
     print("count of stars : %d " % countStars(starString))
-=======
     print ("count of stars : %d " % countStars(starString))
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
+
 
 # this is actually the first line to be executed
 # function call

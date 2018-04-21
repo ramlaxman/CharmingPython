@@ -4,7 +4,6 @@ This program imports sys module to make use of command line arguments
 
 import sys
 
-<<<<<<< HEAD
 print("the command Line aruments are : ", sys.argv)
 
 print("0th argument is always the program file iteself : ", sys.argv[0])
@@ -15,7 +14,6 @@ if len(sys.argv)>2:
     print("accessing multiple arguments : ")
     for i in range(0, len(sys.argv)):
         print(i, " : ", sys.argv[i])
-=======
 print ("the command Line aruments are : ", sys.argv)
 
 print ("0th argument is always the program file iteself : ", sys.argv[0])
@@ -26,7 +24,6 @@ if len(sys.argv)>2:
     print ("accessing multiple arguments : ")
     for i in range(0, len(sys.argv)):
         print (i, " : ", sys.argv[i])
->>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
 
 """
 print sys.stderr
