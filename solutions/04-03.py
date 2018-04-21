@@ -22,6 +22,6 @@ for w in listOfwords:
     else:
         freqDict[w]=1
 
-for k,v in freqDict.iteritems():
-    print k,v
+for k,v in freqDict.items():
+    print (k,v)
 

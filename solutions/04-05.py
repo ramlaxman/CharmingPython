@@ -6,7 +6,7 @@
 inputText = "abcd"
 key = 5
 
-print "inputText : ", inputText
+print ("inputText : ", inputText)
 
 def encrypt(ch, key):
     #get ascii value of character
@@ -27,7 +27,7 @@ for c in inputText:
         c = encrypt(c,key)
     cipher = cipher+c
 
-print "cipher : ", cipher
+print ("cipher : ", cipher)
 
 plain = ""
 for c in cipher:
@@ -35,4 +35,4 @@ for c in cipher:
         c = decrypt(c, key)
     plain = plain+c
 
-print "plain : ", plain
+print ("plain : ", plain)

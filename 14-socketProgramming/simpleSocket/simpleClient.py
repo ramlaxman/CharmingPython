@@ -10,6 +10,6 @@ port = 12345
 
 socketObject.connect((host,port))
 
-print socketObject.recv(1024)
+print (socketObject.recv(1024))
 
 socketObject.close()

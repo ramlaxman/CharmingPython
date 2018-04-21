@@ -7,20 +7,20 @@ without an explicit index
 """
 
 stack = [3, 4, 5]
-print "printing stack : ", stack
+print ("printing stack : ", stack)
 
 stack.append(6)
 stack.append(7)
-print "print stack after append : ", stack
+print ("print stack after append : ", stack)
 # [3, 4, 5, 6, 7]
 
 
 stack.pop()
-print "stack after pop : ", stack
+print ("stack after pop : ", stack)
 
 stack.pop()
-print "stack after pop : ", stack
+print ("stack after pop : ", stack)
 
 stack.pop()
-print "stack after pop : ", stack
+print ("stack after pop : ", stack)
 

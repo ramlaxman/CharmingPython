@@ -24,7 +24,6 @@ print("\tDivision : ", (var1 / var2))
 VAR1 = 33
 
 print("case sensitive variable names : %d -- %d " % (var1, VAR1))
-=======
 print ("printing variable : ", var1)
 print ("the variable has %d value " % var1)
 

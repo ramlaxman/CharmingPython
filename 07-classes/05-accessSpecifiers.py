@@ -11,12 +11,13 @@ class person:
         self.name = name
 
     def printAadhar(self):
-        print self.__aadharNumer
+        print (self.__aadharNumer)
 
 p1 = person('narendra')
 
-print "name : ", p1.name
+print ("name : ", p1.name)
 
 p1.printAadhar()
 
-print "aadhar : ", p1.__aadharNumer
+# this is a negetive check error is expected :
+print ("aadhar : ", p1.__aadharNumer)
