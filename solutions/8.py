@@ -10,6 +10,7 @@ dailyTasks = []
 
 def printList():
     if len(dailyTasks) != 0:
+<<<<<<< HEAD
         print(dailyTasks)
     else:
         print("list is empty")
@@ -17,6 +18,15 @@ def printList():
 def addNewTask(task):
     if task in dailyTasks:
         print("this task already exists")
+=======
+        print (dailyTasks)
+    else:
+        print ("list is empty")
+
+def addNewTask(task):
+    if task in dailyTasks:
+        print ("this task already exists")
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
         return
     else:
         dailyTasks.append(task)
@@ -24,7 +34,11 @@ def addNewTask(task):
 
 def removeTask(task):
     if task not in dailyTasks:
+<<<<<<< HEAD
         print("task unavailable")
+=======
+        print ("task unavailable")
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
     else:
         dailyTasks.remove(task)
 

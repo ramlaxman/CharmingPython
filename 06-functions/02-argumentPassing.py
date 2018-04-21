@@ -8,8 +8,13 @@ the change also reflects back in the calling function.
 
 list1 = [1, 2, 3]
 
+<<<<<<< HEAD
 print("before the function call")
 print(list1)
+=======
+print ("before the function call")
+print (list1)
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
 
 def changeList(paramList):
     paramList.append(4)
@@ -17,6 +22,7 @@ def changeList(paramList):
 
 changeList(list1)
 
+<<<<<<< HEAD
 print("after the function call")
 print(list1)
 
@@ -29,3 +35,17 @@ def replaceList(paramList):
 replaceList(list1)
 print("list after replacement : ")
 print(list1)
+=======
+print ("after the function call")
+print (list1)
+
+def replaceList(paramList):
+    print ("inside the function : ", paramList)
+    paramList = [6,5,4]
+    print ("after the update : ", paramList)
+    return
+
+replaceList(list1)
+print ("list after replacement : ")
+print (list1)
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd

@@ -10,3 +10,4 @@ print("range(5,10) : ", list(range(5,10)))
 
 # specifying "step" value
 print("range(0,20,2) : ", list(range(0,20,2)))
+print("This is introduction to range")

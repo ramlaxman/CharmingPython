@@ -24,11 +24,19 @@ class PrimeNumber(threading.Thread):
         counter = 2
         while counter * counter < self.Number:
             if self.Number % counter == 0:
+<<<<<<< HEAD
                 print("%d is no prime number, because %d = %d * %d" % (
                 self.Number, self.Number, counter, self.Number / counter))
                 return
             counter += 1
             print("%d is a prime number" % self.Number)
+=======
+                print ("%d is no prime number, because %d = %d * %d" % (
+                self.Number, self.Number, counter, self.Number / counter))
+                return
+            counter += 1
+            print ("%d is a prime number" % self.Number)
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
 
 
 threads = []

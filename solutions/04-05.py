@@ -6,7 +6,11 @@
 inputText = "abcd"
 key = 5
 
+<<<<<<< HEAD
 print("inputText : ", inputText)
+=======
+print ("inputText : ", inputText)
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
 
 def encrypt(ch, key):
     #get ascii value of character
@@ -27,7 +31,11 @@ for c in inputText:
         c = encrypt(c,key)
     cipher = cipher+c
 
+<<<<<<< HEAD
 print("cipher : ", cipher)
+=======
+print ("cipher : ", cipher)
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
 
 plain = ""
 for c in cipher:
@@ -35,4 +43,8 @@ for c in cipher:
         c = decrypt(c, key)
     plain = plain+c
 
+<<<<<<< HEAD
 print("plain : ", plain)
+=======
+print ("plain : ", plain)
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd

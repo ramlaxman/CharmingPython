@@ -13,4 +13,8 @@ for ch in sampleString:
     else:
         freqDict[ch]=1
 
+<<<<<<< HEAD
 print(freqDict)
+=======
+print (freqDict)
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd

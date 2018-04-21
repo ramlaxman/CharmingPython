@@ -5,7 +5,7 @@
 count = 0
 
 while count <= 9:
-    print(count)
+    print(count, end='')
     count = count+1
 
 # from now onwards we will write n += 1
@@ -15,7 +15,7 @@ var = 1
 while var==1:
     print var
 """
-print('#'*50)
+print('\n#'*50)
 """
 If the else statement is used with a while loop, the else statement is executed when the loop has exhausted iterating the list.
 """
@@ -26,6 +26,8 @@ while count < 5:
    count += 1 
 else:
    print(count, " is not less than 5")
+
+print ("End of count operation")
 
 
 # Single statement if not declared properly make you say Good Bye to your program

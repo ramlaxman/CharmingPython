@@ -10,6 +10,7 @@ doing inserts or pops from the beginning of a list is slow
 # To implement a queue, use collections.deque which was designed to have fast appends and pops from both ends. For example:
 
 from collections import deque
+<<<<<<< HEAD
 print("define queue : ")
 queue = deque(["Eric", "John", "Michael"])
 print("queue defined : ", queue)
@@ -27,4 +28,25 @@ print("remove element from queue")
 queue.popleft()                 # The second to arrive now leaves
 
 print("final queue : ", queue)                           # Remaining queue in order of arrival
+=======
+print ("define queue : ")
+queue = deque(["Eric", "John", "Michael"])
+print ("queue defined : ", queue)
+
+print ("add element to queue")
+queue.append("Terry")           # Terry arrives
+
+print ("add element to queue")
+queue.append("Graham")          # Graham arrives
+
+print ("remove element from queue")
+queue.popleft()                 # The first to arrive now leaves
+
+print ("remove element from queue")
+queue.popleft()                 # The second to arrive now leaves
+
+print ("final queue : ", queue)
+
+# Remaining queue in order of arrival
+>>>>>>> c3ac379fca6dc807a4f148dfcfcc453a176335dd
 
