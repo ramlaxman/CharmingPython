@@ -9,4 +9,4 @@ count = 0
 for ch in sampleString:
     count = count+1
 
-print "length : ", count
+print("length : ", count)

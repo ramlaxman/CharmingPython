@@ -6,7 +6,7 @@ socketObject = socket.socket()
 
 host = socket .gethostname()
 
-print host
+print(host)
 
 port = 12345
 
@@ -16,7 +16,7 @@ socketObject.listen(5)
 
 while True:
     connectionObject, address = socketObject.accept()
-    print "Got connection from : ", address
+    print("Got connection from : ", address)
     connectionObject.send("Thank you for connecting")
     connectionObject.close()
 

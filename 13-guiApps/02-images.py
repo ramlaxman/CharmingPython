@@ -1,4 +1,4 @@
-from Tkinter import *
+from tkinter import *
 
 root = Tk()
 logo = PhotoImage(file="./python.png")

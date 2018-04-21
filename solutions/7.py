@@ -21,14 +21,14 @@ class division:
         self.studentList.append(student)
 
 div1 = division('bca')
-print vars(div1)
+print(vars(div1))
 stud1 = student('narendra', 10, ['network, python'])
-print vars(stud1)
+print(vars(stud1))
 div1.addStudent(stud1)
-print vars(div1)
+print(vars(div1))
 stud2 = student('samadhan', 20, ['network, python', 'database'])
 div1.addStudent(stud2)
-print vars(div1)
+print(vars(div1))
 
 for student in div1.studentList:
-    print vars(student)
+    print(vars(student))

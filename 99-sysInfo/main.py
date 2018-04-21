@@ -14,10 +14,10 @@ from networkInfo import *
 
 def main():
     myMachine = machineProfile()
-    print vars(myMachine)
+    print(vars(myMachine))
 
     networkDetails = networkInfo()
 
-    print vars(networkDetails)
+    print(vars(networkDetails))
 
 main()

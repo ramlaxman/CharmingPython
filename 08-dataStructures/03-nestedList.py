@@ -5,7 +5,7 @@ matrix = [
          ]
 
 # The following list comprehension will transpose rows and columns:
-print [[row[i] for row in matrix] for i in range(4)]
+print([[row[i] for row in matrix] for i in range(4)])
 
 # [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 

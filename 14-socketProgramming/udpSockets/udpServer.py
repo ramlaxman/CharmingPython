@@ -11,6 +11,6 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 while True:
     time.sleep(5)
     message = "this is udp stream at : %s" % str(datetime.now())
-    print message
+    print(message)
     sock.sendto(message, (hostname, portNo))
 

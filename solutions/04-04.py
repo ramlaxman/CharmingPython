@@ -5,4 +5,4 @@
 sampleString = "this is my sample String"
 
 for i in range(len(sampleString),0,-1):
-    print sampleString[i-1],
+    print(sampleString[i-1], end=' ')

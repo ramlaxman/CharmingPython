@@ -4,10 +4,10 @@ A module allows you to logically organize your Python code. Grouping related cod
 
 # this function prints "Hello World !!"
 def printHello():
-    print "Hello World !!"
+    print("Hello World !!")
     return
 
 # this function prints argument
 def printString(str):
-    print str
+    print(str)
     return

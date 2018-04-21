@@ -2,4 +2,4 @@
 
 x=10
 for i in range (0,x):
-    print ' '*(x-i),' *'*i
+    print(' '*(x-i),' *'*i)

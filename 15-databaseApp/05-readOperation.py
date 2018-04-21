@@ -25,10 +25,10 @@ try:
         lname = row[1]
         age = row[2]
         # Now print fetched result
-        print "fname=%s,lname=%s,age=%d" % \
-                (fname, lname, age)
+        print("fname=%s,lname=%s,age=%d" % \
+                (fname, lname, age))
 except:
-    print "Error: unable to fecth data"
+    print("Error: unable to fecth data")
 
 # disconnect from server
 db.close()

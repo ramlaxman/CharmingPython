@@ -6,7 +6,7 @@ sampleString = "this is my sample string"
 # define word reversing function
 def reverseString(word):
     for i in range(len(word), 0, -1):
-        print word[i-1],
+        print(word[i-1], end=' ')
 
 # split the string into words
 words = sampleString.split()
