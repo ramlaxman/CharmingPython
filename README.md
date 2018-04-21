@@ -1,9 +1,17 @@
-# charmingpython
-a step by step guide to learn python from scratch
+# Charming Python
+## A Beginners Guide through Code rather than Text
 
-Chapters :
+A step by step guide to learn python from scratch
+
+##### Table of Contents  
+[Introduction](#Introduction)  
+<a name="Introduction" href="https://github.com/ramlaxman/charmingpython/tree/master/01-introduction"/>
+Introduction
+</a>
+
+Chapters:
 1. Introduction
--- introduction to python programming language and know how of the tools and techniques to be used
+  -- introduction to python programming language and know how of the tools and techniques to be used
 2. Programming basics
 -- Syntax, Statements, Variables, Operators getting the ground work done for python.
 3. Loops and Control Structures
