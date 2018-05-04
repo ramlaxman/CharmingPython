@@ -1,3 +1,5 @@
+![CodeFactor](https://www.codefactor.io/repository/github/ramlaxman/charmingpython/badge/master)
+
 # Charming Python
 ## A Beginners Guide through Code rather than Text
 
