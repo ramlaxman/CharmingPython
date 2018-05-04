@@ -27,9 +27,6 @@ class Child(Parent): # define child class
       print('Calling child method')
       print ("Calling child constructor")
 
-   def childMethod(self):
-      print ('Calling child method')
-
 c = Child()          # instance of child
 c.childMethod()      # child calls its method
 c.parentMethod()     # calls parent's method
