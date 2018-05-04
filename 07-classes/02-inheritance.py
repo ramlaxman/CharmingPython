@@ -10,10 +10,7 @@ class Parent:        # define parent class
    def parentMethod(self):
       print('Calling parent method')
       print ("Calling parent constructor")
-
-   def parentMethod(self):
-      print ('Calling parent method')
-
+   
    def setAttr(self, attr):
       Parent.parentAttr = attr
 
