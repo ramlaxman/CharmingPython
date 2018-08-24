@@ -1,4 +1,4 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/ramlaxman/charmingpython/badge/master)](https://www.codefactor.io/repository/github/ramlaxman/charmingpython/overview/master)
+[![CodeFactor](https://www.codefactor.io/repository/github/ramlaxman/how-i-learn-python/badge)](https://www.codefactor.io/repository/github/ramlaxman/how-i-learn-python)
 
 # Charming Python
 ## A Beginners Guide through Code rather than Text
