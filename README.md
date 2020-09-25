@@ -24,14 +24,17 @@ _Object Oriented concepts with python_
 ##### 8. Advanced Data Structures:
 _List, Stack, Queue and other data structures in python_
 ##### 9. File Operations:
-_how files work, reading writing to files, use of files for better programming_
+_How files work, reading writing to files, use of files for better programming_
 ##### 10. Errors and exceptions:
-_try, catch the errors and exceptions to avoid code to break._
+_Try, catch the errors and exceptions to avoid code to break._
 ##### 11. Standard Library:
-_getting to know pre-written routines to get the work done faster._
+_Getting to know pre-written routines to get the work done faster._
 ##### 12. Database Application:
-_writing code from scratch to read and write database._
-##### 13. Python : The best tool for research projects:
-_exploring libraries related to data processing, e.g. numpy:representing data with graphs e.g. plotlib_
-##### 14. Python for IoT:
-_brief introduction into practices in Internet of things, how can python be leveraged to make IoT projects possible._
+_Writing code from scratch to read and write database._
+##### 13. Research Project:
+_Exploring libraries related to data processing, e.g. numpy, scipy, matplotlib, pandas._
+##### 14. Web Development:
+_Flask, Django Web Server Development._
+##### 15. Automation:
+_Web Scraping, Google Suite, File Formats, Keyboard and Mouse._
+
