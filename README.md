@@ -3,12 +3,12 @@
 
 ### Status of Repository:
 
-|Issues|Forks|Stargazers|Pull Requests [PRs]|
-|---|---|---|---|
-|[![GitHub issues](https://img.shields.io/github/issues/ramlaxman/CharmingPython?style=social)](https://github.com/ramlaxman/CharmingPython/issues)|[![GitHub forks](https://img.shields.io/github/forks/ramlaxman/CharmingPython?style=social)](https://github.com/ramlaxman/CharmingPython/network)|[![GitHub stars](https://img.shields.io/github/stars/ramlaxman/charmingpython?style=social)](https://github.com/ramlaxman/charmingpython/stargazers)|[![GitHub pull requests](https://img.shields.io/github/issues-pr/ramlaxman/charmingpython?style=social)](https://github.com/ramlaxman/CharmingPython/pulls)|
+|Issues|Forks|Stargazers|Open Pull Requests [PRs]|Closed PRs|
+|---|---|---|---|---|
+|[![GitHub issues](https://img.shields.io/github/issues/ramlaxman/CharmingPython?style=social)](https://github.com/ramlaxman/CharmingPython/issues)|[![GitHub forks](https://img.shields.io/github/forks/ramlaxman/CharmingPython?style=social)](https://github.com/ramlaxman/CharmingPython/network)|[![GitHub stars](https://img.shields.io/github/stars/ramlaxman/charmingpython?style=social)](https://github.com/ramlaxman/charmingpython/stargazers)|[![GitHub pull requests](https://img.shields.io/github/issues-pr/ramlaxman/charmingpython?style=social)](https://github.com/ramlaxman/CharmingPython/pulls)|[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ramlaxman/charmingpython?style=social)](https://github.com/ramlaxman/CharmingPython/pulls)|
 
 ### Quality of Code:
-[![CodeFactor](https://www.codefactor.io/repository/github/ramlaxman/how-i-learn-python/badge)](https://www.codefactor.io/repository/github/ramlaxman/how-i-learn-python)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/ramlaxman/charmingpython/master)](https://github.com/ramlaxman/CharmingPython)
 
 ### Table of Contents  
 Chapters:
