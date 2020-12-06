@@ -11,9 +11,11 @@
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/ramlaxman/charmingpython/master)](https://github.com/ramlaxman/CharmingPython)
 
 ### Table of Contents  
-Chapters:
-##### 1. Introduction: 
-_introduction to python programming language and know how of the tools and techniques to be used_
+
+|Chapters:|
+|---|---|---|
+| **1.| Introduction |_introduction to python programming language and know how of the tools and techniques to be used_**|
+
 ##### 2. Programming basics:
 _Syntax, Statements, Variables, Operators getting the ground work done for python._
 ##### 3. Loops and Control Structures:
