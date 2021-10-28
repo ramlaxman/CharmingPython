@@ -1,15 +1,4 @@
-# datatypes in python
-
-intVar = 30
-print (type(intVar))
-
-floatVar = 34.2255
-print (type(floatVar))
-
-stringVar = "variable of type string"
-print (type(stringVar))
-
-### Data Structures in Python ###
+### Data Structures in Python
 
 # list
 listVar = [1, "3", 4.5]
